@@ -8,4 +8,4 @@ branches:
     - master
 script: ./grailsw clean --non-interactive
      && ./grailsw compile --non-interactive
-     && node fulltests.js
+     && node fulltest.js
