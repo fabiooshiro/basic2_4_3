@@ -5,4 +5,6 @@ Some basic Grails Tests
 
 [![Build Status](https://travis-ci.org/fabiooshiro/basic2_4_3.svg?branch=master)](https://travis-ci.org/fabiooshiro/basic2_4_3)
 
-testing service scope prototype
+Testing service scope prototype.
+
+Default scope Config is singleton
