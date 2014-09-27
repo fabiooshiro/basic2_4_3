@@ -1,0 +1,11 @@
+language: groovy
+before_install:
+  - sudo apt-get install nodejs
+jdk:
+  - openjdk6
+branches:
+  only:
+    - master
+script: ./grailsw clean --non-interactive
+     && ./grailsw compile --non-interactive
+     && nodejs fulltests.js
